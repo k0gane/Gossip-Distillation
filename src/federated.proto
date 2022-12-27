@@ -1,0 +1,62 @@
+syntax = "proto3";
+
+service ModelSender {
+    //前提...clientからserverに送信して、その結果をclientに送り返す
+
+    rpc InitDevice (stream AnyString) returns (stream AnyString) {}
+    // InitDevice...初期に接続してあるクライアント数を確認
+    // 送られただけself.init_countを+1してTrueを返す
+
+    rpc IsEnoughClient (stream AnyString) returns (stream Flag) {}
+    // IsEnoughClient...必要なだけクライアントがInitDeviceを送ってたらTrue
+    // そうでなかったらFalse
+    // while Trueでtime.sleep(5)とかで待つようにする
+
+    rpc SendModel (stream Flag) returns (stream Model) {}
+    //SendModel...args.first_deviceをclientから送って、モデルをserverが送信する
+    //args.first_device == True -> print("Step")
+
+    rpc ReturnModel (stream Model) returns (stream Result) {}
+    //ReturnModel...各clientからモデルをserverに送って、serverは適当な文字列を送信する
+    //適当な文字列の代わりにTrained Modelを用いた時のAccuracy, Loss等を送り返して表示させる？
+
+    rpc IsEnoughModel(stream Timing) returns (stream Flag) {}
+    //IsEnoughModel...複数デバイスで行う場合、モデルが十分に集まっているかを確認する
+    //self.model_listがself.args.num_usersだけいたらTrue, そうでなければFalse
+
+    rpc FederatedModel(stream Flag) returns (stream Result) {}
+    //FederatedModel...IsEnoughModelで十分数のモデルが集まったらサーバー側でFederated SGD
+    //resultを送り返す
+
+    rpc FinishAction(stream AnyString) returns (stream AnyString) {}
+    //終わりの合図
+    //全てのクライアントから来たらグラフを出力、server.stop(0)
+}   
+
+//message...オブジェクト型、中に値を内包できる
+message Model {
+    repeated string model = 1; //モデル用
+}
+
+message AnyString { //適当な文字列
+
+    string anystr = 1;
+}
+
+message Trained_Model {
+    repeated Model model_list = 1;
+}
+
+message Result {
+    string result = 1;
+}
+
+message Timing {
+    string hello = 1;
+}
+
+message Flag {
+    bool flag = 1;
+}
+
+//int8, int16, int32, int64, string, bytes
