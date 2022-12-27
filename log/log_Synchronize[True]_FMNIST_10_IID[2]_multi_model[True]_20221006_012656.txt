@@ -1,0 +1,41 @@
+2022-10-06 01:26:56,168 - __main__ - INFO - Experimental details:
+2022-10-06 01:26:56,168 - __main__ - INFO -     Number of Users : 10
+2022-10-06 01:26:56,168 - __main__ - INFO -     Epochs     : 10
+2022-10-06 01:26:56,168 - __main__ - INFO -     Optimizer : sgd
+2022-10-06 01:26:56,168 - __main__ - INFO -     Learning Rate : 5e-06
+2022-10-06 01:26:56,168 - __main__ - INFO -     Multi Model : True
+2022-10-06 01:26:56,168 - __main__ - INFO -     Dataset : FMNIST
+2022-10-06 01:26:56,168 - __main__ - INFO -     Non-IID#2
+2022-10-06 01:26:56,168 - __main__ - INFO -     Batch size   : 40
+2022-10-06 01:27:09,137 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 25/120, Acc: 6.6%, Loss: 2.5844
+2022-10-06 01:27:09,886 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 50/120, Acc: 10.05%, Loss: 2.3009
+2022-10-06 01:27:10,636 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 75/120, Acc: 14.2667%, Loss: 2.0593
+2022-10-06 01:27:11,382 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 100/120, Acc: 17.75%, Loss: 1.8986
+2022-10-06 01:27:12,731 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 25/120, Acc: 47.2%, Loss: 1.5707
+2022-10-06 01:27:13,470 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 50/120, Acc: 50.7%, Loss: 1.4289
+2022-10-06 01:27:14,221 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 75/120, Acc: 54.2667%, Loss: 1.2911
+2022-10-06 01:27:14,963 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 100/120, Acc: 56.975%, Loss: 1.2089
+2022-10-06 01:27:16,309 - __main__ - INFO - Device: 1, Epoch: 3/10, Step: 25/120, Acc: 76.0%, Loss: 1.0304
+2022-10-06 01:27:17,058 - __main__ - INFO - Device: 1, Epoch: 3/10, Step: 50/120, Acc: 74.25%, Loss: 0.9987
+2022-10-06 01:27:17,806 - __main__ - INFO - Device: 1, Epoch: 3/10, Step: 75/120, Acc: 76.2333%, Loss: 0.883
+2022-10-06 01:27:18,554 - __main__ - INFO - Device: 1, Epoch: 3/10, Step: 100/120, Acc: 76.7%, Loss: 0.8556
+2022-10-06 01:27:19,893 - __main__ - INFO - Device: 1, Epoch: 4/10, Step: 25/120, Acc: 81.9%, Loss: 0.7755
+2022-10-06 01:27:20,639 - __main__ - INFO - Device: 1, Epoch: 4/10, Step: 50/120, Acc: 82.25%, Loss: 0.7383
+2022-10-06 01:27:21,449 - __main__ - INFO - Device: 1, Epoch: 4/10, Step: 75/120, Acc: 82.6667%, Loss: 0.7051
+2022-10-06 01:27:22,277 - __main__ - INFO - Device: 1, Epoch: 4/10, Step: 100/120, Acc: 83.825%, Loss: 0.6392
+2022-10-06 01:27:23,679 - __main__ - INFO - Device: 1, Epoch: 5/10, Step: 25/120, Acc: 85.2%, Loss: 0.6179
+2022-10-06 01:27:24,546 - __main__ - INFO - Device: 1, Epoch: 5/10, Step: 50/120, Acc: 85.3%, Loss: 0.6021
+2022-10-06 01:27:25,370 - __main__ - INFO - Device: 1, Epoch: 5/10, Step: 75/120, Acc: 86.1%, Loss: 0.5769
+2022-10-06 01:27:26,283 - __main__ - INFO - Device: 1, Epoch: 5/10, Step: 100/120, Acc: 86.25%, Loss: 0.5546
+2022-10-06 01:27:27,646 - __main__ - INFO - Device: 1, Epoch: 6/10, Step: 25/120, Acc: 88.1%, Loss: 0.5128
+2022-10-06 01:27:28,505 - __main__ - INFO - Device: 1, Epoch: 6/10, Step: 50/120, Acc: 88.45%, Loss: 0.4936
+2022-10-06 01:27:29,315 - __main__ - INFO - Device: 1, Epoch: 6/10, Step: 75/120, Acc: 88.1667%, Loss: 0.4984
+2022-10-06 01:27:30,072 - __main__ - INFO - Device: 1, Epoch: 6/10, Step: 100/120, Acc: 88.525%, Loss: 0.4714
+2022-10-06 01:27:31,517 - __main__ - INFO - Device: 1, Epoch: 7/10, Step: 25/120, Acc: 90.4%, Loss: 0.4415
+2022-10-06 01:27:32,401 - __main__ - INFO - Device: 1, Epoch: 7/10, Step: 50/120, Acc: 89.3%, Loss: 0.4429
+2022-10-06 01:27:33,215 - __main__ - INFO - Device: 1, Epoch: 7/10, Step: 75/120, Acc: 89.3%, Loss: 0.4311
+2022-10-06 01:27:34,018 - __main__ - INFO - Device: 1, Epoch: 7/10, Step: 100/120, Acc: 89.6%, Loss: 0.4088
+2022-10-06 01:27:35,452 - __main__ - INFO - Device: 1, Epoch: 8/10, Step: 25/120, Acc: 89.1%, Loss: 0.4168
+2022-10-06 01:27:36,204 - __main__ - INFO - Device: 1, Epoch: 8/10, Step: 50/120, Acc: 89.8%, Loss: 0.4014
+2022-10-06 01:27:36,950 - __main__ - INFO - Device: 1, Epoch: 8/10, Step: 75/120, Acc: 90.0%, Loss: 0.3892
+2022-10-06 01:27:37,714 - __main__ - INFO - Device: 1, Epoch: 8/10, Step: 100/120, Acc: 90.125%, Loss: 0.3772

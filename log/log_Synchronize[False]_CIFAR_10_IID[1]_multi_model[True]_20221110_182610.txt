@@ -1,0 +1,23 @@
+2022-11-10 18:26:10,730 - __main__ - INFO - Experimental details:
+2022-11-10 18:26:10,730 - __main__ - INFO -     Number of Users : 10
+2022-11-10 18:26:10,730 - __main__ - INFO -     Epochs     : 10
+2022-11-10 18:26:10,730 - __main__ - INFO -     Optimizer : sgd
+2022-11-10 18:26:10,730 - __main__ - INFO -     Learning Rate : 5e-06
+2022-11-10 18:26:10,730 - __main__ - INFO -     Multi Model : True
+2022-11-10 18:26:10,730 - __main__ - INFO -     Dataset : CIFAR
+2022-11-10 18:26:10,730 - __main__ - INFO -     Non-IID#1
+2022-11-10 18:26:10,730 - __main__ - INFO -     Batch size   : 40
+2022-11-10 18:26:21,352 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 25/100, Acc: 20.2%, Loss: 2.1906
+2022-11-10 18:26:22,002 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 50/100, Acc: 29.3%, Loss: 1.8294
+2022-11-10 18:26:22,645 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 75/100, Acc: 39.2667%, Loss: 1.4961
+2022-11-10 18:26:23,287 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 100/100, Acc: 48.2439%, Loss: 1.2085
+2022-11-10 18:26:24,117 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 25/100, Acc: 84.1%, Loss: 1.0062
+2022-11-10 18:26:24,753 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 50/100, Acc: 87.05%, Loss: 0.8305
+2022-11-10 18:26:25,390 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 75/100, Acc: 88.9333%, Loss: 0.7253
+2022-11-10 18:26:26,040 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 100/100, Acc: 90.3161%, Loss: 0.616
+2022-11-10 18:26:26,681 - __main__ - INFO - Device: 1, Epoch: 3/10, Step: 25/100, Acc: 96.2%, Loss: 0.5407
+2022-11-10 18:26:27,316 - __main__ - INFO - Device: 1, Epoch: 3/10, Step: 50/100, Acc: 96.55%, Loss: 0.4764
+2022-11-10 18:26:27,956 - __main__ - INFO - Device: 1, Epoch: 3/10, Step: 75/100, Acc: 96.9333%, Loss: 0.4259
+2022-11-10 18:26:28,589 - __main__ - INFO - Device: 1, Epoch: 3/10, Step: 100/100, Acc: 97.3407%, Loss: 0.3861
+2022-11-10 18:26:29,242 - __main__ - INFO - Device: 1, Epoch: 4/10, Step: 25/100, Acc: 99.2%, Loss: 0.3474
+2022-11-10 18:26:29,901 - __main__ - INFO - Device: 1, Epoch: 4/10, Step: 50/100, Acc: 99.2%, Loss: 0.3197

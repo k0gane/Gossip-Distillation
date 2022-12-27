@@ -1,0 +1,9 @@
+2022-11-17 11:00:37,584 - __main__ - INFO - Experimental details:
+2022-11-17 11:00:37,584 - __main__ - INFO -     Number of Users : 10
+2022-11-17 11:00:37,584 - __main__ - INFO -     Epochs     : 10
+2022-11-17 11:00:37,584 - __main__ - INFO -     Optimizer : sgd
+2022-11-17 11:00:37,584 - __main__ - INFO -     Learning Rate : 5e-06
+2022-11-17 11:00:37,584 - __main__ - INFO -     Multi Model : False
+2022-11-17 11:00:37,584 - __main__ - INFO -     Dataset : CINIC
+2022-11-17 11:00:37,584 - __main__ - INFO -     Non-IID#1
+2022-11-17 11:00:37,584 - __main__ - INFO -     Batch size   : 40

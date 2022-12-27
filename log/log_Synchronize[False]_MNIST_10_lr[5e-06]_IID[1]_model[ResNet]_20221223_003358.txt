@@ -1,0 +1,9 @@
+2022-12-23 00:33:58,328 - __main__ - INFO - Experimental details:
+2022-12-23 00:33:58,329 - __main__ - INFO -     Number of Users : 10
+2022-12-23 00:33:58,329 - __main__ - INFO -     Epochs     : 10
+2022-12-23 00:33:58,329 - __main__ - INFO -     Optimizer : sgd
+2022-12-23 00:33:58,329 - __main__ - INFO -     Learning Rate : 5e-06
+2022-12-23 00:33:58,329 - __main__ - INFO -     Model : ResNet
+2022-12-23 00:33:58,329 - __main__ - INFO -     Dataset : MNIST
+2022-12-23 00:33:58,329 - __main__ - INFO -     Non-IID#1
+2022-12-23 00:33:58,329 - __main__ - INFO -     Batch size   : 40

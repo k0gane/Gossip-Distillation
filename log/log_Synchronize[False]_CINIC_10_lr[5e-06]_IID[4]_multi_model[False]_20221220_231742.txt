@@ -1,0 +1,30 @@
+2022-12-20 23:17:42,659 - __main__ - INFO - Experimental details:
+2022-12-20 23:17:42,659 - __main__ - INFO -     Number of Users : 10
+2022-12-20 23:17:42,659 - __main__ - INFO -     Epochs     : 10
+2022-12-20 23:17:42,659 - __main__ - INFO -     Optimizer : sgd
+2022-12-20 23:17:42,659 - __main__ - INFO -     Learning Rate : 5e-06
+2022-12-20 23:17:42,659 - __main__ - INFO -     Multi Model : False
+2022-12-20 23:17:42,659 - __main__ - INFO -     Dataset : CINIC
+2022-12-20 23:17:42,659 - __main__ - INFO -     IID
+2022-12-20 23:17:42,659 - __main__ - INFO -     Batch size   : 40
+2022-12-20 23:18:52,870 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 25/44, Acc: 11.0%, Loss: 2.5484
+2022-12-20 23:18:54,400 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 25/44, Acc: 11.9%, Loss: 2.5349
+2022-12-20 23:18:55,735 - __main__ - INFO - Device: 1, Epoch: 3/10, Step: 25/44, Acc: 10.8%, Loss: 2.5163
+2022-12-20 23:18:57,074 - __main__ - INFO - Device: 1, Epoch: 4/10, Step: 25/44, Acc: 11.7%, Loss: 2.4834
+2022-12-20 23:18:58,415 - __main__ - INFO - Device: 1, Epoch: 5/10, Step: 25/44, Acc: 11.4%, Loss: 2.4661
+2022-12-20 23:18:59,817 - __main__ - INFO - Device: 1, Epoch: 6/10, Step: 25/44, Acc: 12.3%, Loss: 2.4414
+2022-12-20 23:19:01,154 - __main__ - INFO - Device: 1, Epoch: 7/10, Step: 25/44, Acc: 12.9%, Loss: 2.4478
+2022-12-20 23:19:02,497 - __main__ - INFO - Device: 1, Epoch: 8/10, Step: 25/44, Acc: 13.8%, Loss: 2.4162
+2022-12-20 23:19:03,841 - __main__ - INFO - Device: 1, Epoch: 9/10, Step: 25/44, Acc: 14.2%, Loss: 2.3701
+2022-12-20 23:19:05,446 - __main__ - INFO - Device: 1, Epoch: 10/10, Step: 25/44, Acc: 14.7%, Loss: 2.3818
+2022-12-20 23:20:39,337 - __main__ - INFO - Test Acc: 12.80 % Loss: 2.45
+2022-12-20 23:20:40,129 - __main__ - INFO - Device: 2, Epoch: 1/10, Step: 25/44, Acc: 9.5%, Loss: 2.7606
+2022-12-20 23:20:41,492 - __main__ - INFO - Device: 2, Epoch: 2/10, Step: 25/44, Acc: 9.8%, Loss: 2.7221
+2022-12-20 23:20:43,017 - __main__ - INFO - Device: 2, Epoch: 3/10, Step: 25/44, Acc: 10.1%, Loss: 2.6485
+2022-12-20 23:20:44,402 - __main__ - INFO - Device: 2, Epoch: 4/10, Step: 25/44, Acc: 10.4%, Loss: 2.6173
+2022-12-20 23:20:45,759 - __main__ - INFO - Device: 2, Epoch: 5/10, Step: 25/44, Acc: 11.1%, Loss: 2.5707
+2022-12-20 23:20:47,210 - __main__ - INFO - Device: 2, Epoch: 6/10, Step: 25/44, Acc: 11.0%, Loss: 2.5354
+2022-12-20 23:20:48,733 - __main__ - INFO - Device: 2, Epoch: 7/10, Step: 25/44, Acc: 13.2%, Loss: 2.489
+2022-12-20 23:20:50,256 - __main__ - INFO - Device: 2, Epoch: 8/10, Step: 25/44, Acc: 12.4%, Loss: 2.4943
+2022-12-20 23:20:51,755 - __main__ - INFO - Device: 2, Epoch: 9/10, Step: 25/44, Acc: 13.0%, Loss: 2.4235
+2022-12-20 23:20:53,089 - __main__ - INFO - Device: 2, Epoch: 10/10, Step: 25/44, Acc: 12.1%, Loss: 2.4088

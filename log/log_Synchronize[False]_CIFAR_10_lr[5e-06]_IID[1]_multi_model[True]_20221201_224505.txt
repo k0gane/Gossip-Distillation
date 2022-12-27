@@ -1,0 +1,9 @@
+2022-12-01 22:45:05,109 - __main__ - INFO - Experimental details:
+2022-12-01 22:45:05,109 - __main__ - INFO -     Number of Users : 10
+2022-12-01 22:45:05,109 - __main__ - INFO -     Epochs     : 10
+2022-12-01 22:45:05,109 - __main__ - INFO -     Optimizer : sgd
+2022-12-01 22:45:05,109 - __main__ - INFO -     Learning Rate : 5e-06
+2022-12-01 22:45:05,109 - __main__ - INFO -     Multi Model : True
+2022-12-01 22:45:05,109 - __main__ - INFO -     Dataset : CIFAR
+2022-12-01 22:45:05,109 - __main__ - INFO -     Non-IID#1
+2022-12-01 22:45:05,109 - __main__ - INFO -     Batch size   : 40

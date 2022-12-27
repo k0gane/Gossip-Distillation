@@ -1,0 +1,20 @@
+2022-11-10 13:33:42,985 - __main__ - INFO - Experimental details:
+2022-11-10 13:33:42,985 - __main__ - INFO -     Number of Users : 10
+2022-11-10 13:33:42,985 - __main__ - INFO -     Epochs     : 10
+2022-11-10 13:33:42,986 - __main__ - INFO -     Optimizer : sgd
+2022-11-10 13:33:42,986 - __main__ - INFO -     Learning Rate : 5e-06
+2022-11-10 13:33:42,986 - __main__ - INFO -     Multi Model : True
+2022-11-10 13:33:42,986 - __main__ - INFO -     Dataset : CINIC
+2022-11-10 13:33:42,986 - __main__ - INFO -     Non-IID#3
+2022-11-10 13:33:42,986 - __main__ - INFO -     Batch size   : 40
+2022-11-10 13:35:26,646 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 25/225, Acc: 9.6%, Loss: 2.5966
+2022-11-10 13:35:27,409 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 50/225, Acc: 9.75%, Loss: 2.537
+2022-11-10 13:35:28,171 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 75/225, Acc: 10.2333%, Loss: 2.4502
+2022-11-10 13:35:28,934 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 100/225, Acc: 10.475%, Loss: 2.4234
+2022-11-10 13:35:29,694 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 125/225, Acc: 11.04%, Loss: 2.3772
+2022-11-10 13:35:30,450 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 150/225, Acc: 11.8667%, Loss: 2.2944
+2022-11-10 13:35:31,217 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 175/225, Acc: 12.6143%, Loss: 2.2869
+2022-11-10 13:35:31,976 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 200/225, Acc: 13.3125%, Loss: 2.2381
+2022-11-10 13:35:32,734 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 225/225, Acc: 13.8556%, Loss: 2.1753
+2022-11-10 13:35:33,651 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 25/225, Acc: 18.2%, Loss: 2.1545
+2022-11-10 13:35:34,469 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 50/225, Acc: 19.85%, Loss: 2.1116

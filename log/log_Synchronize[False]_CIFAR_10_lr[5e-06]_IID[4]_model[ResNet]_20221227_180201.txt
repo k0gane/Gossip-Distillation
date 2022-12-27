@@ -1,0 +1,9 @@
+2022-12-27 18:02:01,841 - __main__ - INFO - Experimental details:
+2022-12-27 18:02:01,841 - __main__ - INFO -     Number of Users : 10
+2022-12-27 18:02:01,841 - __main__ - INFO -     Epochs     : 10
+2022-12-27 18:02:01,841 - __main__ - INFO -     Optimizer : sgd
+2022-12-27 18:02:01,841 - __main__ - INFO -     Learning Rate : 5e-06
+2022-12-27 18:02:01,841 - __main__ - INFO -     Model : ResNet
+2022-12-27 18:02:01,841 - __main__ - INFO -     Dataset : CIFAR
+2022-12-27 18:02:01,841 - __main__ - INFO -     Non-IID#4
+2022-12-27 18:02:01,841 - __main__ - INFO -     Batch size   : 40

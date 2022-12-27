@@ -1,0 +1,100 @@
+2022-10-31 19:22:13,661 - __main__ - INFO - Experimental details:
+2022-10-31 19:22:13,662 - __main__ - INFO -     Number of Users : 10
+2022-10-31 19:22:13,662 - __main__ - INFO -     Epochs     : 10
+2022-10-31 19:22:13,662 - __main__ - INFO -     Optimizer : sgd
+2022-10-31 19:22:13,662 - __main__ - INFO -     Learning Rate : 5e-06
+2022-10-31 19:22:13,662 - __main__ - INFO -     Multi Model : True
+2022-10-31 19:22:13,662 - __main__ - INFO -     Dataset : CINIC
+2022-10-31 19:22:13,662 - __main__ - INFO -     Non-IID#1
+2022-10-31 19:22:13,662 - __main__ - INFO -     Batch size   : 40
+2022-10-31 19:23:54,563 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 25/225, Acc: 42.1%, Loss: 1.7924
+2022-10-31 19:23:55,331 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 50/225, Acc: 51.35%, Loss: 1.4879
+2022-10-31 19:23:56,112 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 75/225, Acc: 60.2333%, Loss: 1.2132
+2022-10-31 19:23:56,878 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 100/225, Acc: 67.275%, Loss: 0.9951
+2022-10-31 19:23:57,643 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 125/225, Acc: 72.64%, Loss: 0.8127
+2022-10-31 19:23:58,408 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 150/225, Acc: 76.6167%, Loss: 0.6959
+2022-10-31 19:23:59,176 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 175/225, Acc: 79.6571%, Loss: 0.5986
+2022-10-31 19:23:59,940 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 200/225, Acc: 82.1%, Loss: 0.5264
+2022-10-31 19:24:00,707 - __main__ - INFO - Device: 1, Epoch: 1/10, Step: 225/225, Acc: 83.9556%, Loss: 0.4672
+2022-10-31 19:24:01,555 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 25/225, Acc: 99.8%, Loss: 0.4096
+2022-10-31 19:24:02,411 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 50/225, Acc: 99.85%, Loss: 0.3772
+2022-10-31 19:24:03,172 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 75/225, Acc: 99.7667%, Loss: 0.3471
+2022-10-31 19:24:03,933 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 100/225, Acc: 99.725%, Loss: 0.3149
+2022-10-31 19:24:04,692 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 125/225, Acc: 99.7%, Loss: 0.2826
+2022-10-31 19:24:05,453 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 150/225, Acc: 99.7167%, Loss: 0.263
+2022-10-31 19:24:06,214 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 175/225, Acc: 99.7571%, Loss: 0.2484
+2022-10-31 19:24:06,976 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 200/225, Acc: 99.7875%, Loss: 0.2302
+2022-10-31 19:24:07,737 - __main__ - INFO - Device: 1, Epoch: 2/10, Step: 225/225, Acc: 99.8%, Loss: 0.2229
+2022-10-31 19:24:08,498 - __main__ - INFO - Device: 1, Epoch: 3/10, Step: 25/225, Acc: 100.0%, Loss: 0.2033
+2022-10-31 19:24:09,258 - __main__ - INFO - Device: 1, Epoch: 3/10, Step: 50/225, Acc: 100.0%, Loss: 0.1898
+2022-10-31 19:24:10,018 - __main__ - INFO - Device: 1, Epoch: 3/10, Step: 75/225, Acc: 100.0%, Loss: 0.1794
+2022-10-31 19:24:10,781 - __main__ - INFO - Device: 1, Epoch: 3/10, Step: 100/225, Acc: 100.0%, Loss: 0.1736
+2022-10-31 19:24:11,542 - __main__ - INFO - Device: 1, Epoch: 3/10, Step: 125/225, Acc: 100.0%, Loss: 0.1635
+2022-10-31 19:24:12,303 - __main__ - INFO - Device: 1, Epoch: 3/10, Step: 150/225, Acc: 100.0%, Loss: 0.1572
+2022-10-31 19:24:13,065 - __main__ - INFO - Device: 1, Epoch: 3/10, Step: 175/225, Acc: 100.0%, Loss: 0.1467
+2022-10-31 19:24:13,825 - __main__ - INFO - Device: 1, Epoch: 3/10, Step: 200/225, Acc: 100.0%, Loss: 0.1484
+2022-10-31 19:24:14,586 - __main__ - INFO - Device: 1, Epoch: 3/10, Step: 225/225, Acc: 100.0%, Loss: 0.1396
+2022-10-31 19:24:15,346 - __main__ - INFO - Device: 1, Epoch: 4/10, Step: 25/225, Acc: 99.9%, Loss: 0.1314
+2022-10-31 19:24:16,106 - __main__ - INFO - Device: 1, Epoch: 4/10, Step: 50/225, Acc: 99.95%, Loss: 0.1277
+2022-10-31 19:24:16,867 - __main__ - INFO - Device: 1, Epoch: 4/10, Step: 75/225, Acc: 99.9667%, Loss: 0.1254
+2022-10-31 19:24:17,627 - __main__ - INFO - Device: 1, Epoch: 4/10, Step: 100/225, Acc: 99.975%, Loss: 0.1179
+2022-10-31 19:24:18,388 - __main__ - INFO - Device: 1, Epoch: 4/10, Step: 125/225, Acc: 99.98%, Loss: 0.1141
+2022-10-31 19:24:19,149 - __main__ - INFO - Device: 1, Epoch: 4/10, Step: 150/225, Acc: 99.9833%, Loss: 0.1087
+2022-10-31 19:24:19,909 - __main__ - INFO - Device: 1, Epoch: 4/10, Step: 175/225, Acc: 99.9857%, Loss: 0.1065
+2022-10-31 19:24:20,670 - __main__ - INFO - Device: 1, Epoch: 4/10, Step: 200/225, Acc: 99.9875%, Loss: 0.1045
+2022-10-31 19:24:21,431 - __main__ - INFO - Device: 1, Epoch: 4/10, Step: 225/225, Acc: 99.9889%, Loss: 0.1016
+2022-10-31 19:24:22,192 - __main__ - INFO - Device: 1, Epoch: 5/10, Step: 25/225, Acc: 100.0%, Loss: 0.0994
+2022-10-31 19:24:22,952 - __main__ - INFO - Device: 1, Epoch: 5/10, Step: 50/225, Acc: 100.0%, Loss: 0.0952
+2022-10-31 19:24:23,715 - __main__ - INFO - Device: 1, Epoch: 5/10, Step: 75/225, Acc: 100.0%, Loss: 0.0944
+2022-10-31 19:24:24,479 - __main__ - INFO - Device: 1, Epoch: 5/10, Step: 100/225, Acc: 100.0%, Loss: 0.0898
+2022-10-31 19:24:25,240 - __main__ - INFO - Device: 1, Epoch: 5/10, Step: 125/225, Acc: 100.0%, Loss: 0.0893
+2022-10-31 19:24:26,000 - __main__ - INFO - Device: 1, Epoch: 5/10, Step: 150/225, Acc: 100.0%, Loss: 0.0841
+2022-10-31 19:24:26,761 - __main__ - INFO - Device: 1, Epoch: 5/10, Step: 175/225, Acc: 100.0%, Loss: 0.0816
+2022-10-31 19:24:27,521 - __main__ - INFO - Device: 1, Epoch: 5/10, Step: 200/225, Acc: 100.0%, Loss: 0.0829
+2022-10-31 19:24:28,281 - __main__ - INFO - Device: 1, Epoch: 5/10, Step: 225/225, Acc: 100.0%, Loss: 0.0749
+2022-10-31 19:24:29,043 - __main__ - INFO - Device: 1, Epoch: 6/10, Step: 25/225, Acc: 100.0%, Loss: 0.0725
+2022-10-31 19:24:29,802 - __main__ - INFO - Device: 1, Epoch: 6/10, Step: 50/225, Acc: 100.0%, Loss: 0.0761
+2022-10-31 19:24:30,562 - __main__ - INFO - Device: 1, Epoch: 6/10, Step: 75/225, Acc: 100.0%, Loss: 0.0732
+2022-10-31 19:24:31,323 - __main__ - INFO - Device: 1, Epoch: 6/10, Step: 100/225, Acc: 100.0%, Loss: 0.0719
+2022-10-31 19:24:32,084 - __main__ - INFO - Device: 1, Epoch: 6/10, Step: 125/225, Acc: 100.0%, Loss: 0.0686
+2022-10-31 19:24:32,880 - __main__ - INFO - Device: 1, Epoch: 6/10, Step: 150/225, Acc: 100.0%, Loss: 0.0654
+2022-10-31 19:24:33,748 - __main__ - INFO - Device: 1, Epoch: 6/10, Step: 175/225, Acc: 100.0%, Loss: 0.0707
+2022-10-31 19:24:34,620 - __main__ - INFO - Device: 1, Epoch: 6/10, Step: 200/225, Acc: 100.0%, Loss: 0.0656
+2022-10-31 19:24:35,489 - __main__ - INFO - Device: 1, Epoch: 6/10, Step: 225/225, Acc: 100.0%, Loss: 0.0626
+2022-10-31 19:24:36,359 - __main__ - INFO - Device: 1, Epoch: 7/10, Step: 25/225, Acc: 100.0%, Loss: 0.0594
+2022-10-31 19:24:37,230 - __main__ - INFO - Device: 1, Epoch: 7/10, Step: 50/225, Acc: 100.0%, Loss: 0.0622
+2022-10-31 19:24:38,096 - __main__ - INFO - Device: 1, Epoch: 7/10, Step: 75/225, Acc: 100.0%, Loss: 0.0579
+2022-10-31 19:24:38,966 - __main__ - INFO - Device: 1, Epoch: 7/10, Step: 100/225, Acc: 100.0%, Loss: 0.0578
+2022-10-31 19:24:39,836 - __main__ - INFO - Device: 1, Epoch: 7/10, Step: 125/225, Acc: 100.0%, Loss: 0.062
+2022-10-31 19:24:40,621 - __main__ - INFO - Device: 1, Epoch: 7/10, Step: 150/225, Acc: 100.0%, Loss: 0.0588
+2022-10-31 19:24:41,391 - __main__ - INFO - Device: 1, Epoch: 7/10, Step: 175/225, Acc: 100.0%, Loss: 0.0551
+2022-10-31 19:24:42,160 - __main__ - INFO - Device: 1, Epoch: 7/10, Step: 200/225, Acc: 100.0%, Loss: 0.0552
+2022-10-31 19:24:42,929 - __main__ - INFO - Device: 1, Epoch: 7/10, Step: 225/225, Acc: 100.0%, Loss: 0.0532
+2022-10-31 19:24:43,698 - __main__ - INFO - Device: 1, Epoch: 8/10, Step: 25/225, Acc: 100.0%, Loss: 0.0534
+2022-10-31 19:24:44,468 - __main__ - INFO - Device: 1, Epoch: 8/10, Step: 50/225, Acc: 100.0%, Loss: 0.0495
+2022-10-31 19:24:45,237 - __main__ - INFO - Device: 1, Epoch: 8/10, Step: 75/225, Acc: 100.0%, Loss: 0.0536
+2022-10-31 19:24:46,006 - __main__ - INFO - Device: 1, Epoch: 8/10, Step: 100/225, Acc: 100.0%, Loss: 0.0508
+2022-10-31 19:24:46,775 - __main__ - INFO - Device: 1, Epoch: 8/10, Step: 125/225, Acc: 100.0%, Loss: 0.0498
+2022-10-31 19:24:47,543 - __main__ - INFO - Device: 1, Epoch: 8/10, Step: 150/225, Acc: 100.0%, Loss: 0.048
+2022-10-31 19:24:48,311 - __main__ - INFO - Device: 1, Epoch: 8/10, Step: 175/225, Acc: 100.0%, Loss: 0.051
+2022-10-31 19:24:49,080 - __main__ - INFO - Device: 1, Epoch: 8/10, Step: 200/225, Acc: 100.0%, Loss: 0.0469
+2022-10-31 19:24:49,870 - __main__ - INFO - Device: 1, Epoch: 8/10, Step: 225/225, Acc: 100.0%, Loss: 0.0478
+2022-10-31 19:24:50,638 - __main__ - INFO - Device: 1, Epoch: 9/10, Step: 25/225, Acc: 100.0%, Loss: 0.0499
+2022-10-31 19:24:51,407 - __main__ - INFO - Device: 1, Epoch: 9/10, Step: 50/225, Acc: 100.0%, Loss: 0.045
+2022-10-31 19:24:52,175 - __main__ - INFO - Device: 1, Epoch: 9/10, Step: 75/225, Acc: 100.0%, Loss: 0.0452
+2022-10-31 19:24:52,943 - __main__ - INFO - Device: 1, Epoch: 9/10, Step: 100/225, Acc: 100.0%, Loss: 0.0435
+2022-10-31 19:24:53,712 - __main__ - INFO - Device: 1, Epoch: 9/10, Step: 125/225, Acc: 100.0%, Loss: 0.0442
+2022-10-31 19:24:54,482 - __main__ - INFO - Device: 1, Epoch: 9/10, Step: 150/225, Acc: 100.0%, Loss: 0.0442
+2022-10-31 19:24:55,252 - __main__ - INFO - Device: 1, Epoch: 9/10, Step: 175/225, Acc: 100.0%, Loss: 0.0401
+2022-10-31 19:24:56,019 - __main__ - INFO - Device: 1, Epoch: 9/10, Step: 200/225, Acc: 100.0%, Loss: 0.0413
+2022-10-31 19:24:56,806 - __main__ - INFO - Device: 1, Epoch: 9/10, Step: 225/225, Acc: 100.0%, Loss: 0.0378
+2022-10-31 19:24:57,596 - __main__ - INFO - Device: 1, Epoch: 10/10, Step: 25/225, Acc: 100.0%, Loss: 0.04
+2022-10-31 19:24:58,358 - __main__ - INFO - Device: 1, Epoch: 10/10, Step: 50/225, Acc: 100.0%, Loss: 0.0386
+2022-10-31 19:24:59,119 - __main__ - INFO - Device: 1, Epoch: 10/10, Step: 75/225, Acc: 100.0%, Loss: 0.039
+2022-10-31 19:24:59,880 - __main__ - INFO - Device: 1, Epoch: 10/10, Step: 100/225, Acc: 100.0%, Loss: 0.0418
+2022-10-31 19:25:00,718 - __main__ - INFO - Device: 1, Epoch: 10/10, Step: 125/225, Acc: 100.0%, Loss: 0.0374
+2022-10-31 19:25:01,482 - __main__ - INFO - Device: 1, Epoch: 10/10, Step: 150/225, Acc: 100.0%, Loss: 0.0399
+2022-10-31 19:25:02,266 - __main__ - INFO - Device: 1, Epoch: 10/10, Step: 175/225, Acc: 100.0%, Loss: 0.0368
+2022-10-31 19:25:03,031 - __main__ - INFO - Device: 1, Epoch: 10/10, Step: 200/225, Acc: 100.0%, Loss: 0.0361
+2022-10-31 19:25:03,791 - __main__ - INFO - Device: 1, Epoch: 10/10, Step: 225/225, Acc: 100.0%, Loss: 0.0362
+2022-10-31 19:26:43,444 - __main__ - INFO - Test Acc: 10.00 % Loss: 6.71
