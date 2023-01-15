@@ -12,9 +12,9 @@ class DatasetSplit(Dataset):
         self.dataset = dataset
         self.idxs = [int(i) for i in idxs]
         tmp = []
-        for idx in self.idxs:
-            tmp.append(self.dataset[idx][1])
-        print(tmp)
+        #for idx in self.idxs:
+        #    tmp.append(self.dataset[idx][1])
+        #print(tmp)
 
     def __len__(self):
         return len(self.idxs)

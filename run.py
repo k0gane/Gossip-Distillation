@@ -3,8 +3,6 @@ import os
 import random
 import time
 from copy import deepcopy
-from unicodedata import decimal
-from cv2 import threshold
 import torch
 import datetime
 import logging
@@ -16,8 +14,10 @@ from torch.utils.data import Dataset, DataLoader
 from src.models import get_densenet, get_resnet, get_mobilenet, get_ghostnet, get_effientnet
 from src.utils import get_dataset, exp_details
 from src.option import args_parser
-from src.function import DistillationDataset, set_reindex, plot_multi_graph, readable_size, float32_to_float16, train, test, dist_train, culc_divide_list, countZeroWeights
+from src.function import DistillationDataset, plot_multi_graph, readable_size, culc_size, float32_to_float16, train, test, dist_train
 from src.update import DatasetSplit
+
+
 
 time.sleep(0.5)
 os.environ["CUDA_LAUNCH_BLOCKING"] = '1'
@@ -36,7 +36,7 @@ else: #ResNet+なにか
     another_model = args.model[1]
     for _ in range(args.num_users - (args.num_users // 2)):
         if another_model == "Dense":
-            client_list.append(get_densenet().to(device))
+            client_list.append(get_densenet(args).to(device))
         elif another_model == "mobilenet":
             client_list.append(get_mobilenet(args).to(device))
         #client_list.append(get_mobilenet(args).to(device))
@@ -114,7 +114,7 @@ if args.synchronize:
             target_list = [i for i in range(args.num_users) if i != client]
             target = random.choice(target_list)
             if count == 0 and client == 0:
-                print(f"size of downloaded object is {readable_size(sys.getsizeof(distillation_result[target]))}.")
+                print(f"size of downloaded object is {readable_size(culc_size(distillation_result_for_send[target]))}.")
             distillation_datasets[client] = DistillationDataset(distillation_dataset_images, distillation_result[client], distillation_result_for_send[target], False)
             # print(len(distillation_dataset))
             # print(distillation_dataset[0])
@@ -151,8 +151,14 @@ else:
         target_list = [i for i in range(args.num_users) if i != client]
         target = random.choice(target_list)
         if count == 0:
-            print(f"size of downloaded object is {readable_size(sys.getsizeof(distillation_result_for_send[target]))}.")
-        
+            print(f"size of downloaded object is {readable_size(culc_size(distillation_result_for_send[target]))}.")
+            print(f"size of downloaded object is {readable_size(culc_size(distillation_result_for_send[target][0]))}.")
+            print(culc_size(distillation_result_for_send[target][0]))
+            #print(distillation_result_for_send[target][0])
+            #print(distillation_result_for_send[target][1])
+            #print(distillation_result_for_send[target])
+            #2
+            #print(len(distillation_result_for_send[target][0]))
         # print(len(distillation_result[client]))
         # print(len(distillation_result_for_send[target]))
         distillation_datasets[client] = DistillationDataset(distillation_dataset_images, distillation_result[client], distillation_result_for_send[target], False)

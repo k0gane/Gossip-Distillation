@@ -3,6 +3,9 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 import numpy as np
+import sys
+from itertools import chain
+from collections import deque
 
 class DistillationDataset(Dataset):
     #可能だったらこの中でデータセットを統合すべき？
@@ -20,6 +23,7 @@ class DistillationDataset(Dataset):
             label2 (tuple): picked prob list(random)
             isinit (bool): true if init dataset
         """
+        #print(isinit)
         if isinit:
             #init data
             
@@ -51,8 +55,8 @@ class DistillationDataset(Dataset):
             # print(len(self.prob))
             # print("prob", self.prob[0])
             self.label = torch.tensor([torch.argmax(p) for p in self.prob])
-            print(type(self.label[0]))
-            print(self.label[0])
+            # print(type(self.label[0]))
+            print(self.label[:10])
             # print("self.prob[0]:", self.prob[0:10])
             # print("self.label[0]:", self.label[0:10])
             # print("label:", self.label)
@@ -125,11 +129,21 @@ def plot_multi_graph(data, args):
     plt.savefig(f"fig/{title}.png")
     
 def readable_size(size):
-    for unit in ['K','M']:
-        if abs(size) < 1024.0:
-            return "%.1f%sB" % (size,unit)
-        size /= 1024.0
-    size /= 1024.0
+    for unit in ['', 'K','M', 'G']:
+        if abs(size) < 1000.0:
+            return "%.1f%siB" % (size,unit)
+        size /= 1000.0
+    return f"{size}TiB"
+
+def culc_size(l):
+    res = 0
+    for ll in l:
+        try:
+            len(ll)
+            res += culc_size(ll)
+        except:
+            return sys.getsizeof(ll)
+    return res + sys.getsizeof(l)
 
 def set_reindex(dataset, l):
     """
@@ -218,10 +232,8 @@ def train(args, client_list, client, trainloader, dist_images, logger):
         del images, labels
         torch.cuda.empty_cache()
     
-    
     #推論部分
     client_list[client].eval()
-    
     
     res = []
     with torch.no_grad():
@@ -338,8 +350,6 @@ def dist_train(args, client_list, client, target, distillation_dataset, loader, 
             res.append(client_list[client](images)) #1回で追加されるのは0~9の確率が格納されたlist
     
     return convert_3d_to_2d(res)
-
-
 
 def countZeroWeights(model):
     #デバッグ用

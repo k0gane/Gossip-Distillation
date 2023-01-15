@@ -8,9 +8,9 @@ def args_parser():
     # number of Epoch
     parser.add_argument('--epochs', type=int, default=10,
                         help="number of rounds of training")
-    parser.add_argument('--step1_epochs', type=int, default=250,
+    parser.add_argument('--step1_epochs', type=int, default=200,
                         help="number of rounds of local")
-    parser.add_argument('--step3_epochs', type=int, default=10,
+    parser.add_argument('--step3_epochs', type=int, default=100,
                         help="number of rounds of training")
     parser.add_argument('--model', required=True, nargs="*", type=str,
                         help="enable multi model(resnet18 only or resnet18 and mobilenetv3)")
